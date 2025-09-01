@@ -1,8 +1,10 @@
 package com.rafaelMelo.rpg_cyberpunk_api.service;
 import java.util.Random;
 
+import org.springframework.stereotype.Service;
 import com.rafaelMelo.rpg_cyberpunk_api.model.*;
 
+@Service
 public class CombatService {
     Random random = new Random();
 
